@@ -1,7 +1,9 @@
 <template>
-  <v-app>
+  
     <div class="tol-index">
       <h1>Index</h1>
+      <TolArticle />
+      <TolArticulo />
     </div>
-  </v-app>
+ 
 </template>

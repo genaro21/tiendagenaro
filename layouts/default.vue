@@ -2,8 +2,7 @@
     <div class="tol-layout-default">
         <v-app>
             <TolHeaderPpal />
-            <TolFamilias />
-            <nuxt />
+            <Nuxt />     
             <TolFooter />
         </v-app>    
     </div>
