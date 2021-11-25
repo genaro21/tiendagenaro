@@ -20,7 +20,7 @@
             </v-row> 
             <v-row class="fila-2"> 
                 <v-btn color="rgb(0,150,100)" @click="onClick">Volver a tienda</v-btn>
-                <v-btn color="rgb(250,100,150)"><nuxt-link to="/finalizar_compra" class="liso">Finalizar compra</nuxt-link></v-btn>
+                <v-btn color="blue"><nuxt-link to="/finalizar_compra" class="liso">Finalizar compra</nuxt-link></v-btn>
             </v-row>      
         </v-container>    
     </div>
@@ -43,17 +43,17 @@ export default{
 
 <style scoped>
 .c1 {
-    background-color: aquamarine;
+    background-color: rgb(225,225,225);
     border-radius: 50px 0px 0px 50px;
 }
 .c2 {
-    background-color: lightgreen;
+    background-color: rgb(225,225,225);
 }
 .c3 {
-    background-color: lightpink;
+    background-color: rgb(225,225,225);
 } 
 .c4 {
-    background-color: rgb(209, 6, 209);
+    background-color: rgb(225,225,225);
     border-left: 3px solid black;
     border-radius: 0px 50px 50px 0px;
 } 

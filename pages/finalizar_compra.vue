@@ -4,7 +4,7 @@
         <v-container>
             <v-row class="fila-1">
                 <v-btn color="rgb(0,150,100)"><nuxt-link to="/signUp" class="liso">Registrarse</nuxt-link></v-btn>
-                <v-btn color="rgb(250,100,150)"><nuxt-link to="/signIn" class="liso">Mi cuenta</nuxt-link></v-btn> 
+                <v-btn color="blue"><nuxt-link to="/signIn" class="liso">Mi cuenta</nuxt-link></v-btn> 
             </v-row>
             <v-row>
                 <div class="externo">
@@ -50,7 +50,7 @@
 }
 .frontal {
     height: 400px;
-    background-color: goldenrod;
+   
     border-radius: 25px;
     box-shadow: 5px 5px 10px;
     margin-bottom: 50px;

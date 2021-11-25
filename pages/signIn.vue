@@ -1,10 +1,10 @@
 <template>
     <div class="tol-sign-in">
-        <v-card class="my-16">
+        <v-card class="my-16 pa-4">
              <v-toolbar app class="mt-8"
                 color="orange"
                 height="40px">
-                    <v-app-bar-title class="mx-4 my-4">Mi Cuenta</v-app-bar-title>
+                    <v-app-bar-title class="mx-4 my-4">Login</v-app-bar-title>
             </v-toolbar>
             
             <v-text-field class="mt-8" placeholder="email" outlined></v-text-field>
